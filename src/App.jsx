@@ -21,8 +21,8 @@ export default function App() {
         </section>
         <ResultsSection results={results} />
       </main>
-      <footer className="border-t mt-10 py-4 text-center text-sm text-slate-500">
-        © 2025 — Built for demonstration purposes only.
+      <footer className="border-t border-gray-400/50 mt-10 py-4 text-center text-sm text-slate-500">
+        © {new Date().getFullYear()} — Built for demonstration purposes only.
       </footer>
     </div>
   );

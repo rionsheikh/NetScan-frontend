@@ -131,7 +131,7 @@ export default function ScanForm({ onScanComplete }) {
               type="checkbox"
               checked={formData.authorized}
               onChange={handleChange}
-              className="h-4 w-4 mt-1 text-indigo-600 focus:ring-indigo-400 rounded"
+              className="h-4 w-4 mt-0.5 cursor-pointer text-indigo-600 focus:ring-indigo-400 rounded"
             />
             <label htmlFor="authorized" className="text-sm text-slate-700">
               I confirm I have authorization to scan this target.
